@@ -1,0 +1,28 @@
+***** Michael Lotkowski - 1207068 ********
+***** King's Dream Fractal Animation *****
+
+
+1. About
+This program creates an animation of the 3D King's Dream fractal. It allows the user to rotate object on all 3 axes, move frame by frame and to generate high-resolution picture.
+
+2. Expected Result
+The program starts with 4 dots close to the four corners, then the user can press a to start the animation or interact with the object as defined below. The user can do that at any time in the program. Once the animation starts it should show the King's Dream fractal forming and then expanding.
+
+3. Usage
+a - Start/pause animation
+i - return to the initial state
+h - generate high-resolution picture
+s - display current values of the variables in the terminal
++ - frame forward
+- - frame backwards
+right arrow - positive y rotation
+left arrow - negative y rotation
+up arrow - negative x rotation
+down arrow - positive x rotation
+home key - positive z rotation
+end key - negative z rotation
+page up - zoom in
+page down - zoom out
+
+4. Performance
+The program has been tested on one of the DICE computers and it was running fine. To increase the performance it is necessary to decrease the number of the iterations.  
